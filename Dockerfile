@@ -1,6 +1,6 @@
 # RTEMS Toolchain build for cross compile on x86_64
 
-FROM ubuntu:20.04 AS environment
+FROM ubuntu:22.04 AS environment
 
 ENV RTEMS_MAJOR_VERSION=5
 ENV RTEMS_MINOR_VERSION=1
